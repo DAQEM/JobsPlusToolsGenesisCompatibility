@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "jobsplustools:netherite_hammer",
+    "jobsplustools:netherite_excavator",
+    "jobsplustools:netherite_hatchet",
+    "jobsplustools:netherite_harvester",
+    "jobsplustools:netherite_longsword",
+    "jobsplustools:netherite_compound_bow",
+    "jobsplustools:netherite_trowel",
+    "jobsplustools:netherite_wrench",
+    "jobsplustools:netherite_wand",
+    "jobsplustools:netherite_experience_jar",
+    "jobsplustools:netherite_fishing_rod"
+  ]
+}

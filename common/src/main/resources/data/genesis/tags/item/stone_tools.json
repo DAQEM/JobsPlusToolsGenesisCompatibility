@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "jobsplustools:stone_hammer",
+    "jobsplustools:stone_excavator",
+    "jobsplustools:stone_hatchet",
+    "jobsplustools:stone_harvester",
+    "jobsplustools:stone_longsword",
+    "jobsplustools:stone_compound_bow",
+    "jobsplustools:stone_trowel",
+    "jobsplustools:stone_wrench",
+    "jobsplustools:stone_wand",
+    "jobsplustools:stone_experience_jar",
+    "jobsplustools:stone_fishing_rod"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "jobsplustools:copper_hammer",
+    "jobsplustools:copper_excavator",
+    "jobsplustools:copper_hatchet",
+    "jobsplustools:copper_harvester",
+    "jobsplustools:copper_longsword",
+    "jobsplustools:copper_compound_bow",
+    "jobsplustools:copper_trowel",
+    "jobsplustools:copper_wrench",
+    "jobsplustools:copper_wand",
+    "jobsplustools:copper_experience_jar",
+    "jobsplustools:copper_fishing_rod"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "jobsplustools:iron_hammer",
+    "jobsplustools:iron_excavator",
+    "jobsplustools:iron_hatchet",
+    "jobsplustools:iron_harvester",
+    "jobsplustools:iron_longsword",
+    "jobsplustools:iron_compound_bow",
+    "jobsplustools:iron_trowel",
+    "jobsplustools:iron_wrench",
+    "jobsplustools:iron_wand",
+    "jobsplustools:iron_experience_jar",
+    "jobsplustools:iron_fishing_rod"
+  ]
+}

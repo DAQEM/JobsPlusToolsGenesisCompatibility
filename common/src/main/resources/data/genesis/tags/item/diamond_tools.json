@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "jobsplustools:diamond_hammer",
+    "jobsplustools:diamond_excavator",
+    "jobsplustools:diamond_hatchet",
+    "jobsplustools:diamond_harvester",
+    "jobsplustools:diamond_longsword",
+    "jobsplustools:diamond_compound_bow",
+    "jobsplustools:diamond_trowel",
+    "jobsplustools:diamond_wrench",
+    "jobsplustools:diamond_wand",
+    "jobsplustools:diamond_experience_jar",
+    "jobsplustools:diamond_fishing_rod"
+  ]
+}

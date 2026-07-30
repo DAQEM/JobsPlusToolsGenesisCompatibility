@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "jobsplustools:golden_hammer",
+    "jobsplustools:golden_excavator",
+    "jobsplustools:golden_hatchet",
+    "jobsplustools:golden_harvester",
+    "jobsplustools:golden_longsword",
+    "jobsplustools:golden_compound_bow",
+    "jobsplustools:golden_trowel",
+    "jobsplustools:golden_wrench",
+    "jobsplustools:golden_wand",
+    "jobsplustools:golden_experience_jar",
+    "jobsplustools:golden_fishing_rod"
+  ]
+}
