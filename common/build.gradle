@@ -1,0 +1,57 @@
+plugins {
+    id 'multiloader-common'
+    id 'net.neoforged.moddev'
+}
+
+apply from: rootProject.file("gradle/scripts/maven-publishing.gradle")
+
+neoForge {
+    neoFormVersion = neo_form_version
+}
+
+dependencies {
+    implementation "com.daqem.jobsplustools:jobsplustools-common:${project.jobsplustools_version}"
+    implementation "maven.modrinth:genesis-official:${project.genesis_version}"
+    runtimeOnly "maven.modrinth:genesis-framework:${project.genesis_framework_version}"
+}
+
+configurations {
+    commonJava {
+        canBeResolved = false
+        canBeConsumed = true
+    }
+    commonResources {
+        canBeResolved = false
+        canBeConsumed = true
+    }
+}
+
+artifacts {
+    commonJava sourceSets.main.java.sourceDirectories.singleFile
+    commonResources sourceSets.main.resources.sourceDirectories.singleFile
+}
+
+// Implement mcgradleconventions loader attribute
+def loaderAttribute = Attribute.of('io.github.mcgradleconventions.loader', String)
+['apiElements', 'runtimeElements', 'sourcesElements'].each { variant ->
+    configurations.named("$variant") {
+        attributes {
+            attribute(loaderAttribute, 'common')
+        }
+    }
+}
+sourceSets.configureEach {
+    [it.compileClasspathConfigurationName, it.runtimeClasspathConfigurationName].each { variant->
+        configurations.named("$variant") {
+            attributes {
+                attribute(loaderAttribute, 'common')
+            }
+        }
+    }
+}
+
+tasks.register('printVersionName') {
+    doLast {
+        println version
+    }
+}
